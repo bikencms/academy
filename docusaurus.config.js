@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Academy',
-  tagline: 'Website Online academy',
+  tagline: 'Website chia sẻ các khóa học',
   url: 'https://bikencms.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,12 +16,14 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'blog', label: 'Blog', position: 'left'
+        },
         {
           href: 'https://github.com/bikencms',
           label: 'GitHub',
@@ -87,13 +89,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/bikencms/academy/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/bikencms/academy/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
