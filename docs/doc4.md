@@ -1,5 +1,8 @@
 ---
 id: doc4
-title: This is Document Number 4
+title: Doc 4
+sidebar_label: Doc 4
+slug: /doc4
 ---
-Doc 4 ne
+
+Doc 4

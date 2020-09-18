@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Academy',
+      title: ' ',
       logo: {
         alt: 'Academy Logo',
         src: 'img/favicon.png',
@@ -18,7 +18,7 @@ module.exports = {
         {
           to: 'docs',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Khóa học',
           position: 'left',
         },
         {
