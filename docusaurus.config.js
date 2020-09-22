@@ -16,8 +16,8 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs',
-          activeBasePath: 'docs',
+          to: 'docs/setting',
+          activeBasePath: 'docs/setting',
           label: 'Khóa học',
           position: 'left',
         },
@@ -80,6 +80,11 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+        trackingID: 'UA-106136148-1',
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
@@ -99,8 +104,8 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
+        }
       },
     ],
-  ],
+  ]
 };
